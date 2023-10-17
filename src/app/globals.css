@@ -15,4 +15,12 @@
         bg-gray-950 text-white
         transition-all duration-100 origin-top-right
     }
+
+    .project-tab{
+        @apply relative w-[20%] h-[6%] pt-2 px-3 mt-2 mx-1 
+        rounded-t-xl inline-block bg-slate-800
+        hover:bg-slate-900 hover:cursor-pointer
+        active:bg-slate-900
+    }
+    
 }

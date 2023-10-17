@@ -14,6 +14,12 @@ export default function TopBar(){
     )
 }
 
+/**
+ * An icon with a tooltip that displays when hovered
+ * @param {*} icon A react element that contains an icon
+ * @param {*} tooltip The text to display when icon is hovered
+ * @returns <div>
+ */
 function Icon({icon, tooltip="Tooltip"}){
     return(
         <div className="navbar-component group">
