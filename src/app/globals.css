@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .navbar-component{
+        @apply relative w-6 h-6
+        text-white
+        hover:text-gray-400 hover:cursor-pointer
+    }
+
+    .navbar-tooltip{
+        @apply absolute right-0 p-1.5 m-auto scale-0
+        text-sm rounded-md
+        bg-gray-950 text-white
+        transition-all duration-100 origin-top-right
+    }
+}
