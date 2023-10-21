@@ -1,18 +1,17 @@
 export default function Projects(){
-    // const tabHeight = 6; // Percentage of container height
 
     return(
         <div className="flex flex-col items-center justify-center h-screen">
             Projects
             <div className="w-[70vw] h-[70vh] bg-slate-800
-            rounded-xl">
-                <div className="w-full h-full group">
-                    <div className="project-tab">
+            rounded-lg">
+                <div className="w-full h-full">
+                    <button className="project-tab first:ml-2">
                         Project1
-                    </div>
-                    <div className="project-tab">
+                    </button>
+                    <button className="project-tab">
                         Project2
-                    </div>
+                    </button>
                     <div className={`relative h-[90%] w-full bg-slate-900`}>
                         
                     </div>
